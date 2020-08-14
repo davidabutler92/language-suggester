@@ -14,7 +14,11 @@ $(document).ready(function() {
     // console.log(total);
     
     if(total <= 10) {
-      
-    }
+      $("#language").text("Ruby on Rails.");
+      $("#results").show();
+    } else if (total >= 11 && total <= 20); {
+      $("#language").text("Javascript.");
+      $("#results").show();
+    } 
   });
 });
