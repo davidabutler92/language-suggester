@@ -9,41 +9,43 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron" id="title-background">
         <h1>
           Language-Suggester
-          <small class="text-muted">Which language will you learn best suits you:</small>
+          <small class="text-muted" id="small-title-text">Which language will you learn best suits you:</small>
         </h1>
       </div>
     </div>
 
     <div class="container" id="name-container">
       <form id="language-survey">
-        <div class="form-inline">
-          <label for="firstName">Enter first name:</label>
-          <input type="text" name="firstName" id="firstName" class="form-control text-center">
+        <div id="nameDiv">
+          <div class="form-inline">
+            <label for="firstName">Enter first name:</label>
+            <input type="text" name="firstName" id="firstName" class="form-control text-center">
+          </div>
         </div>
         <div class="jumbotron">
           <div class="form-group">
             <label for="question-1">On a scale of 1-10, how much do you like a challenge?</label>
             <medium>1 being not very much and 10 being very much enjoys challenges:</medium>
-            <input type="number" name="question-1" id="question-1" min="1" max="10" class="form-control text-center">
+            <input type="number" name="question-1" id="question-1" min="1" max="10" class="form-control text-center" required>
           </div>
           <div class="form-group">
             <label for="question-2">On a scale of 1-10, how much do you like Japan?</label>
-            <input type="number" name="question-2" id="question-2" min="1" max="10" class="form-control text-center">
+            <input type="number" name="question-2" id="question-2" min="1" max="10" class="form-control text-center" required>
           </div>
           <div class="form-group">
             <label for="question-3">On a scale of 1-10, how much do you enjoy working with computers?</label>
-            <input type="number" name="question-3" id="question-3" min="1" max="10" class="form-control text-center">
+            <input type="number" name="question-3" id="question-3" min="1" max="10" class="form-control text-center" required>
           </div>
           <div class="form-group">
             <label for="question-4">On a scale of 1-10, how much do you enjoy building back-end (business logic) code?</label>
-            <input type="number" name="question-4" id="question-4" min="1" max="10" class="form-control text-center">
+            <input type="number" name="question-4" id="question-4" min="1" max="10" class="form-control text-center" required>
           </div>
           <div class="form-group">
             <label for="question-5">On a scale of 1-10, how much do you enjoy building front-end (UI logic) code?</label>
-            <input type="number" name="question-5" id="question-5" min="1" max="10" class="form-control text-center">
+            <input type="number" name="question-5" id="question-5" min="1" max="10" class="form-control text-center" required>
           </div>
           <div>
             <button id="submit-button" class="btn btn-primary"type="submit">Submit</button>
@@ -53,12 +55,12 @@
       <div id="results">
         <div class="container">
           <div class="jumbotron">
-            <h2>Hey<span id="userNameResults"></span>, based on our survey we suggest you learn <span id="language"></span> Thank you for taking our survey!</h2>
+            <h2>Hey <span id="userNameResults"></span>, based on our survey we suggest you learn <span id="language"></span> Thank you for taking our survey!</h2>
           </div>
         </div>
       </div>
     </div>
-    
+
     <div class="container" id="copyright">
       <footer>&copy; Copyright 2020 David Butler</footer>
     </div>

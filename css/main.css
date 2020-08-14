@@ -1,3 +1,53 @@
 #results {
   display: none;
 }
+
+#question-1 {
+  width: 10%;
+}
+
+#question-2 {
+  width: 10%;
+}
+
+#question-3 {
+  width: 10%;
+}
+
+#question-4 {
+  width: 10%;
+}
+
+#question-5 {
+  width: 10%;
+}
+
+#submit-button {
+  margin-top: 2%;
+}
+
+#title-background {
+  margin-top: 20px;
+  background: url("https://bit.ly/3iI4CaW");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  color: white;
+}
+
+#small-title-text {
+  color: white;
+}
+
+#nameDiv {
+  margin-top: .5%;
+  margin-bottom: 3%
+}
+
+#copyright {
+  margin-top: 10%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  text-align: center;
+}

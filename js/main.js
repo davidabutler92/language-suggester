@@ -29,5 +29,7 @@ $(document).ready(function() {
       $("#language").text("Rust.");
       $("#results").show();
     }
+
+    $("#userNameResults").text(firstName);
   });
 });
