@@ -26,6 +26,28 @@
   margin-top: 2%;
 }
 
+#results-container {
+  text-align: center;
+}
+
+#results-background {
+  margin-top: 20px;
+  background: url("https://bit.ly/3auD71I");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+#form-background {
+  margin-top: 20px;
+  background: url("https://bit.ly/3auD71I");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
 #title-background {
   margin-top: 20px;
   background: url("https://bit.ly/3iI4CaW");
