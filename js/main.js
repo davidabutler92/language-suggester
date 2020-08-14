@@ -6,7 +6,7 @@ $(document).ready(function() {
     const lastName = $("#lastName").val();
     // console.log(firstName, lastName);
     const que1 = parseInt($("input#question-1").val());
-    // console.log(que1);
-    
+    const que2 = parseInt($("#question-2").val());
+    console.log(que2);
   })
 });
