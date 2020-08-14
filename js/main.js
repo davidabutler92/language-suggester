@@ -16,9 +16,18 @@ $(document).ready(function() {
     if(total <= 10) {
       $("#language").text("Ruby on Rails.");
       $("#results").show();
-    } else if (total >= 11 && total <= 20); {
+    } else if (total >= 11 && total <= 20) {
       $("#language").text("Javascript.");
       $("#results").show();
-    } 
+    } else if (total >= 21 && total <= 30) {
+      $("#language").text("C# and .Net");
+      $("#results").show();
+    } else if (total >= 31 && total <=40) {
+      $("#language").text("Python.");
+      $("#results").show();
+    } else if (total >= 41 && total <= 50) {
+      $("#language").text("Rust.");
+      $("#results").show();
+    }
   });
 });
