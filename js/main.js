@@ -13,5 +13,8 @@ $(document).ready(function() {
     const total = que1 + que2 + que3 + que4 + que5
     // console.log(total);
     
-  })
+    if(total <= 10) {
+      
+    }
+  });
 });

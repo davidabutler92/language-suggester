@@ -16,14 +16,13 @@
         </h1>
       </div>
     </div>
+
     <div class="container" id="name-container">
       <form id="language-survey">
         <div class="form-inline">
           <label for="firstName">Enter first name:</label>
           <input type="text" name="firstName" id="firstName" class="form-control text-center">
         </div>
-      </div>
-      <div class="container">
         <div class="jumbotron">
           <div class="form-group">
             <label for="question-1">On a scale of 1-10, how much do you like a challenge?</label>
@@ -50,8 +49,18 @@
             <button id="submit-button" class="btn btn-primary"type="submit">Submit</button>
           </div>
         </div>
-      </div>
       </form>
+      <div id="results">
+        <div class="container">
+          <div class="jumbotron">
+            <h2>Hey<span id="userNameResults"></span>, based on our survey we suggest you learn <span id="language"></span> Thank you for taking our survey!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container" id="copyright">
+      <footer>&copy; Copyright 2020 David Butler</footer>
     </div>
   </body>
   </html>
