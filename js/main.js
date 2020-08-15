@@ -14,19 +14,19 @@ $(document).ready(function() {
     // console.log(total);
     
     if(total <= 10) {
-      $("#language").text("Rust");
+      $("#language").text("Rust.");
       $("#language-survey").hide();
       $("#results").show();
     } else if (total >= 11 && total <= 20) {
-      $("#language").text("Python");
+      $("#language").text("Python.");
       $("#language-survey").hide();
       $("#results").show();
     } else if (total >= 21 && total <= 30) {
-      $("#language").text("C# and .Net");
+      $("#language").text("C# and .Net.");
       $("#language-survey").hide();
       $("#results").show();
     } else if (total >= 31 && total <=40) {
-      $("#language").text("Javascript");
+      $("#language").text("Javascript.");
       $("#language-survey").hide();
       $("#results").show();
     } else if (total >= 41 && total <= 50) {
