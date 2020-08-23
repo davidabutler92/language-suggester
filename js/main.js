@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     const firstName = $("#firstName").val();
     // console.log(firstName);
-    const que1 = parseInt($("input#question-1").val());
+    const que1 = parseInt($("input#rangeInput").val());
     const que2 = parseInt($("input#question-2").val());
     const que3 = parseInt($("input#question-3").val());
     const que4 = parseInt($("input#question-4").val());
