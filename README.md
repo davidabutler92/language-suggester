@@ -9,11 +9,10 @@
 #### Create an application for people interested in coding to decide which language they should learn first. Keep in mind that even though all languages have similarities and switching between languages and platforms is very common in both internships and jobs, applicants should still put some thought into which language they should learn.
 
 ## Setup/Installation Requirements
-* Make a new directory to clone the repo in.
-* Clone repository @ [Click here](https://github.com/davidabutler92/language-suggester.git)
-* Open language-suggester (code .) in terminal.
-* To see on gh-pages [Click here](https://davidabutler92.github.io/language-suggester/)  
-* 
+* Sign into your github and click on this link below
+* Click on fork on the top right corner @ [Click here](https://github.com/davidabutler92/language-suggester.git)
+* Now you have a copy of the repo and can edit it how you please.
+* To see on gh-pages [Click here](https://davidabutler92.github.io/language-suggester/) 
 
 ## Known Bugs 
 #### There are no known bugs at the time.
