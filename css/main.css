@@ -37,6 +37,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  background: none;
 }
 
 #form-background {
@@ -81,4 +82,8 @@
 
 label {
   font-size: 130%
+}
+
+#refresh-btn {
+  margin-top: 5%;
 }
