@@ -87,3 +87,11 @@ label {
 #refresh-btn {
   margin-top: 5%;
 }
+
+body {
+  background: url("https://bit.ly/32mfPY7");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
