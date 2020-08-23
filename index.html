@@ -28,7 +28,15 @@
         <div class="jumbotron" id="form-background">
           <div class="form-group">
             <label for="question-1">On a scale of 1-10, how much do you like a challenge?</label>
-            <medium>1 being not very much and 10 being very much enjoys challenges:</medium>
+            <div id="list">
+              <ul>
+                <li>10 = very much enjoy</li>
+                <li>7 = enjoys</li>
+                <li>5 = nuetral</li>
+                <li>3 = dislikes</li>
+                <li>1 = very dislikes</li>
+              </ul>
+          </div>
             <input type="range" name="rangeInput" id="rangeInput" min="1" max="10" value="1" class="slider" oninput="amount.value=rangeInput.value" required>
             <output id="amount" name="amount" for="rangeInput">1</output>
           </div>
