@@ -21,8 +21,7 @@
       <form id="language-survey">
         <div id="nameDiv">
           <div class="form-inline">
-            <label for="firstName">Enter first name:</label>
-            <input type="text" name="firstName" id="firstName" class="form-control text-center">
+            <input type="text" name="firstName" id="firstName" class="form-control text-center" placeholder="Enter name here" required>
           </div>
         </div>
         <div class="jumbotron" id="form-background">
@@ -31,10 +30,10 @@
             <div id="list">
               <ul>
                 <li>10 = very much enjoy</li>
-                <li>7 = enjoys</li>
-                <li>5 = nuetral</li>
-                <li>3 = dislikes</li>
-                <li>1 = very dislike</li>
+                <li>7  = enjoys</li>
+                <li>5  = nuetral</li>
+                <li>3  = dislikes</li>
+                <li>1  = very dislike</li>
               </ul>
           </div>
             <input type="range" name="rangeInput" id="rangeInput" min="1" max="10" value="1" class="slider" oninput="amount.value=rangeInput.value" required>
@@ -57,7 +56,7 @@
             <input type="number" name="question-5" id="question-5" min="1" max="10" class="form-control text-center" required>
           </div>
           <div>
-            <button id="submit-button" class="btn btn-primary"type="submit">Submit</button>
+            <button id="submit-button" class="btn btn-info btn-lg"type="submit">Submit</button>
           </div>
         </div>
       </form>
@@ -66,7 +65,7 @@
           <div class="jumbotron text-center" id="results-background">
             <h3>Hey <span id="userNameResults"></span>, based on our survey we suggest you learn <span id="language"></span> Thank you for taking our survey!</h3>
             <div id="refreshButton">
-              <button id="refresh-btn" type="button" class="btn btn-primary" onClick="history.go(0)" value="Refresh">Refresh</button>
+              <button id="refresh-btn" type="button" class="btn btn-info btn-lg" onClick="history.go(0)" value="Refresh">Refresh</button>
             </div>
           </div>
         </div>
