@@ -122,9 +122,10 @@ output#amount {
   width: 10%
 }
 
-h1 {
+#firstName {
   display: inline-block;
   margin: 0 0.5rem;
   animation: bounce; 
   animation-duration: 2s; 
+  margin-top: 20%
 }
