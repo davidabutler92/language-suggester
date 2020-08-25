@@ -100,11 +100,13 @@ label {
 }
 
 body {
-  background: url("https://bit.ly/2YrufFb");
+  /* background: url("https://bit.ly/2YrufFb");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,58,121,1) 56%, rgba(0,212,255,1) 100%);
 }
 
 output#amount {
